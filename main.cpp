@@ -4,11 +4,9 @@ using namespace std;
 
 int main()
 {
-    float perimeter,area;
-    int r=6;
-    perimeter=2*3.14*6;
-    cout << "perimeter of the circle :"<< perimeter << endl;
-    area=3.14*r*r;
-    cout << "area of the circle : "<<area<< endl;
+    char char1='X';
+    char char2='M';
+    char char3='L';
+    cout << "reverse of  "<<char1<<char2<<char3<<" is "<<char3<<char2<<char1<< endl;
     return 0;
 }
